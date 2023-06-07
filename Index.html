@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Click Me!</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f9f9f9;
+      text-align: center;
+    }
+
+    h1 {
+      color: #333;
+      margin-top: 100px;
+    }
+
+    .button {
+      display: inline-block;
+      padding: 12px 24px;
+      font-size: 18px;
+      font-weight: bold;
+      text-decoration: none;
+      color: #fff;
+      background-color: #ff4500;
+      border-radius: 4px;
+      border: none;
+      transition: background-color 0.3s ease;
+      cursor: pointer;
+    }
+
+    .button:hover {
+      background-color: #ff5722;
+    }
+  </style>
+</head>
+<body>
+  <h1>Click the button to continue</h1>
+  <button class="button" onclick="rickroll()">Click Me!</button>
+
+  <script>
+    function rickroll() {
+      window.location.href = "https://www.youtube.com/watch?v=dQw4w9WgXcQ";
+    }
+  </script>
+</body>
+</html>
